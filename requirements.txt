@@ -1,3 +1,13 @@
-attrs==22.1.0
-jsonschema==4.17.3
-pyrsistent==0.19.2
+astroid==2.12.13
+customtkinter==5.0.1
+darkdetect==0.7.1
+dill==0.3.6
+isort==5.10.1
+lazy-object-proxy==1.8.0
+mccabe==0.7.0
+mysql-connector-python==8.0.31
+platformdirs==2.5.4
+protobuf==3.20.1
+pylint==2.15.8
+tomlkit==0.11.6
+wrapt==1.14.1
