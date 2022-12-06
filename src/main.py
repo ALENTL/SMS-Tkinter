@@ -7,7 +7,20 @@ from mysql_conf import Config
 cnx = mc.connect(host="localhost", user=Config.user, password=Config.password, port=3306, database="SCHOOL")
 cur = cnx.cursor()
 
+# SQL Connection check
+def sql_check():
+    if cnx.is_connected() == True:
+        print("Database connection established")
+        return True
+
+# Default run command
+def run():
+    a = sql_check()
+    if a == True:
+        window = CTk()
+        window.mainloop()
+
+
 # Just the basic main stuff part
 if __name__ == "__main__":
-    if cnx.is_connected():
-        print("Connection successful")
+    run()
