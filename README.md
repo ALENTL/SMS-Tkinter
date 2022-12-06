@@ -7,4 +7,4 @@
 `cd SMS-Tkinter`
 
 3. Installed the required modules using
-`python -m pip install -r requirements.tx`
+`python -m pip install -r requirements.txt`
