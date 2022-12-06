@@ -1,10 +1,10 @@
 # Installing the modern tkinter module
-from customtkinter import *
+from customtkinter import CTk
 import mysql.connector as mc
 from mysql_conf import Config
 
 # Mysql connection
-cnx = mc.connect(host="localhost", user=Config.user, password=Config.password, port=3306, database="SCHOOL")
+cnx = mc.connect(host="localhost", user=Config.user, password=Config.password, port=Config.port, database="SCHOOL")
 cur = cnx.cursor()
 
 # SQL Connection check
